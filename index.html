@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="id" style="scroll-behavior: smooth;">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audi Indonesia | Official Home</title>
     <link rel="shortcut icon" href="img/audi-logo-audi-icon-free-free-vector-Photoroom.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    
+
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        'audi-red': '#CC0000', 
-                        'audi-dark': '#111827', 
-                        'audi-light': '#F9FAFB', 
-                        'audi-gray': '#4B5563', 
+                        'audi-red': '#CC0000',
+                        'audi-dark': '#111827',
+                        'audi-light': '#F9FAFB',
+                        'audi-gray': '#4B5563',
                     },
                     fontFamily: {
                         sans: ['Poppins', 'sans-serif'],
@@ -26,12 +27,13 @@
             }
         }
     </script>
-    
+
     <style>
         /* 💡 PENTING: Scroll Behavior untuk Transisi Halus antar ID */
         html {
             scroll-behavior: smooth;
         }
+
         /* Gaya kustom untuk memastikan ikon menu tidak terlihat di desktop */
         @media (min-width: 768px) {
             #mobile-menu-button {
@@ -40,35 +42,52 @@
         }
     </style>
 </head>
+
 <body class="font-sans text-audi-dark bg-white">
 
     <header class="bg-white shadow-sm sticky top-0 z-50 border-b border-gray-100">
         <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex justify-between items-center">
             <div class="flex-shrink-0">
-                <a href="#home" class="text-3xl font-light text-audi-dark tracking-widest transition duration-300 hover:text-audi-red">
+                <a href="#home"
+                    class="text-3xl font-light text-audi-dark tracking-widest transition duration-300 hover:text-audi-red">
                     <span class="text-audi-red font-semibold">A</span>UDI
                 </a>
             </div>
-            
+
             <div class="hidden md:block">
                 <div class="flex items-baseline space-x-8">
-                    <a href="#home" class="text-sm font-medium text-audi-dark hover:text-audi-red transition duration-300">Home</a>
-                    <a href="#about" class="text-sm font-medium text-audi-dark hover:text-audi-red transition duration-300">About</a>
-                    <a href="#model" class="text-sm font-medium text-audi-dark hover:text-audi-red transition duration-300">Model</a>
-                    <a href="#services" class="text-sm font-medium text-audi-dark hover:text-audi-red transition duration-300">Services</a>
-                    <a href="#experience" class="text-sm font-medium text-audi-dark hover:text-audi-red transition duration-300">Experience</a>
-                    <a href="#dealer" class="text-sm font-semibold bg-audi-red text-white px-5 py-2 rounded-full hover:bg-audi-dark transition duration-300 tracking-wider shadow-md transform hover:scale-105">Find a Dealer</a>
+                    <a href="#home"
+                        class="text-sm font-medium text-audi-dark hover:text-audi-red transition duration-300">Home</a>
+                    <a href="#about"
+                        class="text-sm font-medium text-audi-dark hover:text-audi-red transition duration-300">About</a>
+                    <a href="#model"
+                        class="text-sm font-medium text-audi-dark hover:text-audi-red transition duration-300">Model</a>
+                    <a href="#services"
+                        class="text-sm font-medium text-audi-dark hover:text-audi-red transition duration-300">Services</a>
+                    <a href="#experience"
+                        class="text-sm font-medium text-audi-dark hover:text-audi-red transition duration-300">Experience</a>
+                    <a href="#dealer"
+                        class="text-sm font-semibold bg-audi-red text-white px-5 py-2 rounded-full hover:bg-audi-dark transition duration-300 tracking-wider shadow-md transform hover:scale-105">Find
+                        a Dealer</a>
                 </div>
             </div>
 
             <div class="-mr-2 flex md:hidden">
-                <button id="mobile-menu-button" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-audi-dark hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-audi-red transition duration-300" aria-controls="mobile-menu" aria-expanded="false">
+                <button id="mobile-menu-button" type="button"
+                    class="inline-flex items-center justify-center p-2 rounded-md text-audi-dark hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-audi-red transition duration-300"
+                    aria-controls="mobile-menu" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
-                    <svg id="menu-icon-open" class="block h-6 w-6 transition duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    <svg id="menu-icon-open" class="block h-6 w-6 transition duration-300"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                        aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
-                    <svg id="menu-icon-close" class="hidden h-6 w-6 transition duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    <svg id="menu-icon-close" class="hidden h-6 w-6 transition duration-300"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                        aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
                     </svg>
                 </button>
             </div>
@@ -76,25 +95,39 @@
 
         <div class="md:hidden hidden bg-white shadow-lg border-t border-gray-100" id="mobile-menu">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a href="#home" class="block px-3 py-2 text-base font-medium text-audi-dark hover:bg-audi-light hover:text-audi-red transition duration-300">Home</a>
-                <a href="#about" class="block px-3 py-2 text-base font-medium text-audi-dark hover:bg-audi-light hover:text-audi-red transition duration-300">About</a>
-                <a href="#model" class="block px-3 py-2 text-base font-medium text-audi-dark hover:bg-audi-light hover:text-audi-red transition duration-300">Model</a>
-                <a href="#services" class="block px-3 py-2 text-base font-medium text-audi-dark hover:bg-audi-light hover:text-audi-red transition duration-300">Services</a>
-                <a href="#experience" class="block px-3 py-2 text-base font-medium text-audi-dark hover:bg-audi-light hover:text-audi-red transition duration-300">Experience</a>
-                <a href="#dealer" class="block w-full text-center mt-2 px-3 py-2 text-base font-semibold bg-audi-red text-white rounded-full hover:bg-audi-dark transition duration-300">Temukan Dealer</a>
+                <a href="#home"
+                    class="block px-3 py-2 text-base font-medium text-audi-dark hover:bg-audi-light hover:text-audi-red transition duration-300">Home</a>
+                <a href="#about"
+                    class="block px-3 py-2 text-base font-medium text-audi-dark hover:bg-audi-light hover:text-audi-red transition duration-300">About</a>
+                <a href="#motorsport"
+                    class="block px-3 py-2 text-base font-medium text-audi-dark hover:bg-audi-light hover:text-audi-red transition duration-300">Motorsport</a>
+                <a href="#model"
+                    class="block px-3 py-2 text-base font-medium text-audi-dark hover:bg-audi-light hover:text-audi-red transition duration-300">Model</a>
+                <a href="#services"
+                    class="block px-3 py-2 text-base font-medium text-audi-dark hover:bg-audi-light hover:text-audi-red transition duration-300">Services</a>
+                <a href="#experience"
+                    class="block px-3 py-2 text-base font-medium text-audi-dark hover:bg-audi-light hover:text-audi-red transition duration-300">Experience</a>
+                <a href="#dealer"
+                    class="block w-full text-center mt-2 px-3 py-2 text-base font-semibold bg-audi-red text-white rounded-full hover:bg-audi-dark transition duration-300">Temukan
+                    Dealer</a>
             </div>
         </div>
     </header>
 
     <main>
-        <section id="home" class="relative min-h-[60vh] md:min-h-[80vh] flex items-center bg-audi-dark text-white overflow-hidden">
-            <img class="absolute inset-0 w-full h-full object-cover opacity-70" src="https://hips.hearstapps.com/hmg-prod/images/2023-audi-r8-gt-front-three-quarters-motion-3-1664827965.jpg?crop=0.684xw:0.577xh;0.0321xw,0.281xh&resize=2048:*" alt="Audi e-tron GT">
+        <section id="home"
+            class="relative min-h-[60vh] md:min-h-[80vh] flex items-center bg-audi-dark text-white overflow-hidden">
+            <img class="absolute inset-0 w-full h-full object-cover opacity-70"
+                src="https://hips.hearstapps.com/hmg-prod/images/2023-audi-r8-gt-front-three-quarters-motion-3-1664827965.jpg?crop=0.684xw:0.577xh;0.0321xw,0.281xh&resize=2048:*"
+                alt="Audi e-tron GT">
             <div class="absolute inset-0 bg-audi-dark/40 transition duration-500"></div>
-            
+
             <div class="container mx-auto px-4 z-10 text-left md:w-2/3 lg:w-1/2 ml-4 md:ml-12">
                 <p class="text-sm uppercase tracking-widest text-audi-red mb-3 font-medium">Vorsprung durch Technik</p>
                 <h1 class="text-5xl md:text-7xl font-light leading-tight mb-6">The Future Starts Here.</h1>
-                <a href="#model" class="bg-audi-red hover:bg-audi-dark text-white font-semibold py-3 px-8 rounded-full shadow-xl uppercase tracking-wider transition duration-300 transform hover:scale-105 inline-block">Explore Model</a>
+                <a href="#model"
+                    class="bg-audi-red hover:bg-audi-dark text-white font-semibold py-3 px-8 rounded-full shadow-xl uppercase tracking-wider transition duration-300 transform hover:scale-105 inline-block">Explore
+                    Model</a>
             </div>
         </section>
 
@@ -102,74 +135,135 @@
             <div class="container mx-auto px-4 max-w-5xl">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                     <div>
-                        <h2 class="text-4xl font-light mb-4 border-b-2 border-audi-red pb-2 inline-block">Innovation & Philosophy</h2>
-                        <p class="text-audi-gray leading-relaxed mt-4">We believe that innovation is the driving force behind true luxury. Every Audi is crafted with precision, combining minimalist design and cutting-edge technology to create an unparalleled driving experience.</p>
+                        <h2 class="text-4xl font-light mb-4 border-b-2 border-audi-red pb-2 inline-block">Innovation &
+                            Philosophy</h2>
+                        <p class="text-audi-gray leading-relaxed mt-4">We believe that innovation is the driving force
+                            behind true luxury. Every Audi is crafted with precision, combining minimalist design and
+                            cutting-edge technology to create an unparalleled driving experience.</p>
                         <ul class="mt-6 space-y-2 text-audi-gray">
-                            <li class="flex items-center"><span class="text-audi-red mr-2 text-xl">&raquo;</span> Progressive Design</li>
-                            <li class="flex items-center"><span class="text-audi-red mr-2 text-xl">&raquo;</span> Premium Material Quality</li>
-                            <li class="flex items-center"><span class="text-audi-red mr-2 text-xl">&raquo;</span> Sustainable Mobility</li>
+                            <li class="flex items-center"><span class="text-audi-red mr-2 text-xl">&raquo;</span>
+                                Progressive Design</li>
+                            <li class="flex items-center"><span class="text-audi-red mr-2 text-xl">&raquo;</span>
+                                Premium Material Quality</li>
+                            <li class="flex items-center"><span class="text-audi-red mr-2 text-xl">&raquo;</span>
+                                Sustainable Mobility</li>
                         </ul>
                         <div class="mt-8">
-                            <button class="bg-white border border-audi-dark hover:bg-audi-dark hover:text-white text-audi-dark font-medium py-2 px-6 rounded-full transition duration-300 text-sm tracking-wider"><a href="https://www.audi-mediacenter.com/en/technology-235">Read More &rarr;</a></button>
+                            <button
+                                class="bg-white border border-audi-dark hover:bg-audi-dark hover:text-white text-audi-dark font-medium py-2 px-6 rounded-full transition duration-300 text-sm tracking-wider"><a
+                                    href="https://www.audi-mediacenter.com/en/technology-235">Read More
+                                    &rarr;</a></button>
                         </div>
                     </div>
                     <div class="h-64 bg-audi-light border border-gray-200 rounded-lg shadow-lg overflow-hidden">
-                        <img class="w-full h-full object-cover rounded-lg transform hover:scale-105 transition duration-500" src="https://assets.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p3/83/2025/09/03/Audi-Concept-C-2025-1-3114839557.jpg" alt="Filosofi Audi">
+                        <img class="w-full h-full object-cover rounded-lg transform hover:scale-105 transition duration-500"
+                            src="https://assets.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p3/83/2025/09/03/Audi-Concept-C-2025-1-3114839557.jpg"
+                            alt="Filosofi Audi">
                     </div>
                 </div>
             </div>
         </section>
+
+
+        <section id="motorsport" class="py-20 bg-audi-dark text-white"
+            style="background-image: url('https://emea-dam.audi.com/adobe/assets/urn:aaid:aem:8334b587-e852-4a4a-97e0-fc3b65005e75/as/1920x1080_Hero_shot_Audi_Sport_2.jpg?width=1440'); background-size: cover; background-position: center;">
+            <div
+                class="container mx-auto px-4 text-center bg-audi-dark/60 p-12 rounded-xl transition duration-500 hover:bg-audi-dark/75">
+                <p class="text-sm uppercase tracking-widest text-audi-red mb-3 font-medium">Racing Heritage</p>
+                <h2 class="text-5xl font-light mb-6">Audi Sport: The Drive for Victory.</h2>
+                <p class="text-xl mb-10 text-gray-300 max-w-4xl mx-auto">From Dakar Rally to Formula 1, Audi's spirit of
+                    <b>Vorsprung durch Technik</b> is proven on the toughest tracks in the world. Experience the
+                    transfer of racing technology to our road cars.</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="https://www.audi.com/en/sport/"
+                        class="bg-audi-red hover:bg-white hover:text-audi-dark text-white font-semibold py-3 px-8 rounded-full shadow-lg uppercase tracking-wider transition duration-300 transform hover:scale-105 inline-block">Explore
+                        Audi Sport &rarr;</a>
+                    <a href="https://www.audi.com/en/sport/motorsport/formula-1/"
+                        class=" border border-audi-red text-audi-white hover:bg-white hover:text-audi-dark font-semibold py-3 px-8 rounded-full transition duration-300 text-sm tracking-wider uppercase transform hover:scale-105 inline-block">Formula
+                        1 Project &rarr;</a>
+                </div>
+            </div>
+        </section>
+
 
         <section id="model" class="py-20 bg-audi-light">
             <div class="container mx-auto px-4">
-                <h2 class="text-4xl font-light text-center mb-12 border-b-2 border-audi-red pb-2 inline-block">Exclusive Model Line</h2>
-                
+                <h2 class="text-4xl font-light text-center mb-12 border-b-2 border-audi-red pb-2 inline-block">Exclusive
+                    Model Line</h2>
+
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 transition duration-300 hover:shadow-2xl hover:scale-[1.01]">
-                        <img class="w-full h-56 object-cover" src="https://emea-dam.audi.com/adobe/assets/urn:aaid:aem:572dc17b-b65a-4c8b-b50a-c974ebb5c21a/as/AA7_171015_4-L.jpg?width=1440" alt="Audi A7 Sportback">
+                    <div
+                        class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 transition duration-300 hover:shadow-2xl hover:scale-[1.01]">
+                        <img class="w-full h-56 object-cover"
+                            src="https://emea-dam.audi.com/adobe/assets/urn:aaid:aem:572dc17b-b65a-4c8b-b50a-c974ebb5c21a/as/AA7_171015_4-L.jpg?width=1440"
+                            alt="Audi A7 Sportback">
                         <div class="p-6 text-center">
                             <h3 class="text-2xl font-normal mb-1">A7 Sportback</h3>
-                            <p class="text-sm text-audi-gray mb-4">The elegance of a Coupé with the functionality of a Sedan.</p>
-                            <a href="https://www.audi.co.id/en/models/a7/a7-sportback/" class="inline-block bg-audi-dark hover:bg-audi-red text-white font-medium py-2 px-6 rounded-full transition duration-300 text-xs uppercase tracking-wider">Model Detail</a>
+                            <p class="text-sm text-audi-gray mb-4">The elegance of a Coupé with the functionality of a
+                                Sedan.</p>
+                            <a href="https://www.audi.co.id/en/models/a7/a7-sportback/"
+                                class="inline-block bg-audi-dark hover:bg-audi-red text-white font-medium py-2 px-6 rounded-full transition duration-300 text-xs uppercase tracking-wider">Model
+                                Detail</a>
                         </div>
                     </div>
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 transition duration-300 hover:shadow-2xl hover:scale-[1.01]">
-                        <img class="w-full h-56 object-cover" src="https://emea-dam.audi.com/adobe/assets/urn:aaid:aem:9d39d2af-d9d4-4beb-8eb6-d0a9c450018d/as/AQ8_181027_1-xl.jpg?width=2048" alt="Audi Q8 SUV">
+                    <div
+                        class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 transition duration-300 hover:shadow-2xl hover:scale-[1.01]">
+                        <img class="w-full h-56 object-cover"
+                            src="https://emea-dam.audi.com/adobe/assets/urn:aaid:aem:9d39d2af-d9d4-4beb-8eb6-d0a9c450018d/as/AQ8_181027_1-xl.jpg?width=2048"
+                            alt="Audi Q8 SUV">
                         <div class="p-6 text-center">
                             <h3 class="text-2xl font-normal mb-1">Q8 SUV</h3>
                             <p class="text-sm text-audi-gray mb-4">A luxurious and dynamic SUV Coupe experience.</p>
-                            <a href="https://www.audi.co.id/en/models/q8/q8/" class="inline-block bg-audi-dark hover:bg-audi-red text-white font-medium py-2 px-6 rounded-full transition duration-300 text-xs uppercase tracking-wider">Model Detail</a>
+                            <a href="https://www.audi.co.id/en/models/q8/q8/"
+                                class="inline-block bg-audi-dark hover:bg-audi-red text-white font-medium py-2 px-6 rounded-full transition duration-300 text-xs uppercase tracking-wider">Model
+                                Detail</a>
                         </div>
                     </div>
 
 
 
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 transition duration-300 hover:shadow-2xl hover:scale-[1.01]">
-                        <img class="w-full h-56 object-cover" src="https://nar.media.audi.com/is/image/audinar/nemo/ca/Models/rs7/MY25/1920x1080-P1-MY25-RS-7-performance-Front-Profile-Driving-4359.jpg?width=1440" alt="Audi Q8 SUV">
+                    <div
+                        class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 transition duration-300 hover:shadow-2xl hover:scale-[1.01]">
+                        <img class="w-full h-56 object-cover"
+                            src="https://nar.media.audi.com/is/image/audinar/nemo/ca/Models/rs7/MY25/1920x1080-P1-MY25-RS-7-performance-Front-Profile-Driving-4359.jpg?width=1440"
+                            alt="Audi Q8 SUV">
                         <div class="p-6 text-center">
                             <h3 class="text-2xl font-normal mb-1">RS 7 Sportback</h3>
                             <p class="text-sm text-audi-gray mb-4">The perfect combination of Speed and luxury.</p>
-                            <a href="https://www.audi.com.au/en/models/a7/rs-7-sportback-performance/" class="inline-block bg-audi-dark hover:bg-audi-red text-white font-medium py-2 px-6 rounded-full transition duration-300 text-xs uppercase tracking-wider">Model Detail</a>
+                            <a href="https://www.audi.com.au/en/models/a7/rs-7-sportback-performance/"
+                                class="inline-block bg-audi-dark hover:bg-audi-red text-white font-medium py-2 px-6 rounded-full transition duration-300 text-xs uppercase tracking-wider">Model
+                                Detail</a>
                         </div>
                     </div>
 
 
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 transition duration-300 hover:shadow-2xl hover:scale-[1.01]">
-                        <img class="w-full h-56 object-cover" src="https://mediaservice.audi.com/media/fast/v3_xWTXWhbdRyG_3uyti45-TinJm3SQ8_syYnVEZtmadY5g8vYxQotlNVuwpD4b3KWpk2T7OQ0C07GKAiiiCB-gx_gUKFDhkyR6i4cgrqJTGU4REEGguhERYbimHh697t4n5ffxfuc-U30rDqCI_vO_DXwT-9tD_yIEN2WEL5zosdddRaaW4QQs_hrK7Jqjy217OqAJfNpu-umZac1ls1k8-livtiRDTddnJ-Y7KZzy8W0rNfDos8jhU-IvlNC9Ly-2SNC_atOvSUduXKPY7dbzUa71rHV0Ul7YXIiKyu7cpWFTCWfyy9UZGZiIV_J2bKcz5Szu8p2fjxX1ryKS8LntYvbG9Vy-ajTbLg7cxW7vew2W9266M3JCceRYuvmX2zfw_A8sTliZ4m9R_wO4nu56wKJZ0msk_gA_SWMMYx1jA8xLmF8xcgVRm5gbsHcj3kY8w9SPaT2k5KIaRSH4JuEtxM9zuBJhq6iN9AfRl9DdzH2kFwj-Q3Wn4gc6nk0legrxLIkltCj6KPoUyR9JO8m-R1WFOsw1llSafwB_KdRdqDcT9Al5OEzqI-gNdG6aJ8S_ZV4nfgXxP8m8RNmL-a_JCMkLZIlkqdJXsTaSWCKwA2Uc2hTxN4iuEHwfYI3Ue9DLaFWUD9B_RJtB9oE2izaPNoxok8R_xz9IPoGwz8wfJPh_zC2YkQwLEZ-x3we08X8iOQhrG1Y_Vh3Ys1ivY11DeUNgi8S_J7wy0TmiVwkcQJzN4NtEhsoGuGr9E8TfYjoIrEniH3MQJfBJQYfwzqC1cA6hvUM1mVvfIg-xEm2_YJ_Gv9B_EsEQgQkgUcJfIaioKyjvEMwRFASfJrgFUIhQgahU4SLhNcIv0ZklMhe4i-QuMaQhv4u-tcMn8e4F-NBjA4jtzBHUA8QnyP-JHoP5mXMn1F8KEOETELXCV8ncgv1cdRXiZ0gdoHYt94Cn7MbnZq3vBW74RZmmjPF0oHmatsu7ZPl5VZdunY7dbxWcRcL47uzmdSiXasuuoXxXC6TkvXWoiwclfW2nSrLFduRhTnX86pULGVLmYwXaHieuTXPi8Jss13bvKY38VTbtW2n1qjKRrVuF8YzqRXblRXpyo7ttL1UIdvvKx6a_R9yW_QMzwMAAA?wid=1920" alt="Audi Q8 SUV">
+                    <div
+                        class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 transition duration-300 hover:shadow-2xl hover:scale-[1.01]">
+                        <img class="w-full h-56 object-cover"
+                            src="https://mediaservice.audi.com/media/fast/v3_xWTXWhbdRyG_3uyti45-TinJm3SQ8_syYnVEZtmadY5g8vYxQotlNVuwpD4b3KWpk2T7OQ0C07GKAiiiCB-gx_gUKFDhkyR6i4cgrqJTGU4REEGguhERYbimHh697t4n5ffxfuc-U30rDqCI_vO_DXwT-9tD_yIEN2WEL5zosdddRaaW4QQs_hrK7Jqjy217OqAJfNpu-umZac1ls1k8-livtiRDTddnJ-Y7KZzy8W0rNfDos8jhU-IvlNC9Ly-2SNC_atOvSUduXKPY7dbzUa71rHV0Ul7YXIiKyu7cpWFTCWfyy9UZGZiIV_J2bKcz5Szu8p2fjxX1ryKS8LntYvbG9Vy-ajTbLg7cxW7vew2W9266M3JCceRYuvmX2zfw_A8sTliZ4m9R_wO4nu56wKJZ0msk_gA_SWMMYx1jA8xLmF8xcgVRm5gbsHcj3kY8w9SPaT2k5KIaRSH4JuEtxM9zuBJhq6iN9AfRl9DdzH2kFwj-Q3Wn4gc6nk0legrxLIkltCj6KPoUyR9JO8m-R1WFOsw1llSafwB_KdRdqDcT9Al5OEzqI-gNdG6aJ8S_ZV4nfgXxP8m8RNmL-a_JCMkLZIlkqdJXsTaSWCKwA2Uc2hTxN4iuEHwfYI3Ue9DLaFWUD9B_RJtB9oE2izaPNoxok8R_xz9IPoGwz8wfJPh_zC2YkQwLEZ-x3we08X8iOQhrG1Y_Vh3Ys1ivY11DeUNgi8S_J7wy0TmiVwkcQJzN4NtEhsoGuGr9E8TfYjoIrEniH3MQJfBJQYfwzqC1cA6hvUM1mVvfIg-xEm2_YJ_Gv9B_EsEQgQkgUcJfIaioKyjvEMwRFASfJrgFUIhQgahU4SLhNcIv0ZklMhe4i-QuMaQhv4u-tcMn8e4F-NBjA4jtzBHUA8QnyP-JHoP5mXMn1F8KEOETELXCV8ncgv1cdRXiZ0gdoHYt94Cn7MbnZq3vBW74RZmmjPF0oHmatsu7ZPl5VZdunY7dbxWcRcL47uzmdSiXasuuoXxXC6TkvXWoiwclfW2nSrLFduRhTnX86pULGVLmYwXaHieuTXPi8Jss13bvKY38VTbtW2n1qjKRrVuF8YzqRXblRXpyo7ttL1UIdvvKx6a_R9yW_QMzwMAAA?wid=1920"
+                            alt="Audi Q8 SUV">
                         <div class="p-6 text-center">
                             <h3 class="text-2xl font-normal mb-1">RS 6 Avant</h3>
-                            <p class="text-sm text-audi-gray mb-4">A unique experience. A <b>powerful</b> family car.</p>
-                            <a href="https://www.audi.co.id/en/models/a6/rs-6-avant/" class="inline-block bg-audi-dark hover:bg-audi-red text-white font-medium py-2 px-6 rounded-full transition duration-300 text-xs uppercase tracking-wider">Model Detail</a>
+                            <p class="text-sm text-audi-gray mb-4">A unique experience. A <b>powerful</b> family car.
+                            </p>
+                            <a href="https://www.audi.co.id/en/models/a6/rs-6-avant/"
+                                class="inline-block bg-audi-dark hover:bg-audi-red text-white font-medium py-2 px-6 rounded-full transition duration-300 text-xs uppercase tracking-wider">Model
+                                Detail</a>
                         </div>
                     </div>
 
 
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 transition duration-300 hover:shadow-2xl hover:scale-[1.01]">
-                        <img class="w-full h-56 object-cover" src="https://cimg0.ibsrv.net/ibimg/hgm/1707x960-1/100/933/audi-e-tron-gt_100933196.jpg" alt="Audi Q8 SUV">
+                    <div
+                        class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 transition duration-300 hover:shadow-2xl hover:scale-[1.01]">
+                        <img class="w-full h-56 object-cover"
+                            src="https://cimg0.ibsrv.net/ibimg/hgm/1707x960-1/100/933/audi-e-tron-gt_100933196.jpg"
+                            alt="Audi Q8 SUV">
                         <div class="p-6 text-center">
                             <h3 class="text-2xl font-normal mb-1">RS E-Tron GT</h3>
                             <p class="text-sm text-audi-gray mb-4">Audi's first very elegant electric car.</p>
-                            <a href="https://www.audi-me.com/en/models/e-tron-gt/rs-e-tron-gt-performance/" class="inline-block bg-audi-dark hover:bg-audi-red text-white font-medium py-2 px-6 rounded-full transition duration-300 text-xs uppercase tracking-wider">Model Detail</a>
+                            <a href="https://www.audi-me.com/en/models/e-tron-gt/rs-e-tron-gt-performance/"
+                                class="inline-block bg-audi-dark hover:bg-audi-red text-white font-medium py-2 px-6 rounded-full transition duration-300 text-xs uppercase tracking-wider">Model
+                                Detail</a>
                         </div>
                     </div>
 
@@ -178,53 +272,78 @@
 
 
 
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 transition duration-300 hover:shadow-2xl hover:scale-[1.01]">
-                        <img class="w-full h-56 object-cover" src="https://www.carscoops.com/wp-content/uploads/2023/12/Audi-R8-Coupe-Japan-Final-Edition-1.jpg" alt="Audi R8 Coupe">
+                    <div
+                        class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 transition duration-300 hover:shadow-2xl hover:scale-[1.01]">
+                        <img class="w-full h-56 object-cover"
+                            src="https://www.carscoops.com/wp-content/uploads/2023/12/Audi-R8-Coupe-Japan-Final-Edition-1.jpg"
+                            alt="Audi R8 Coupe">
                         <div class="p-6 text-center">
                             <h3 class="text-2xl font-normal mb-1">R8 Coupé</h3>
                             <p class="text-sm text-audi-gray mb-4">Legendary performance with a V10 engine.</p>
-                            <a href="https://www.audi.co.id/en/models/r8/r8-coupe-v10-performance-quattro/" class="inline-block bg-audi-dark hover:bg-audi-red text-white font-medium py-2 px-6 rounded-full transition duration-300 text-xs uppercase tracking-wider">Model Detail</a>
+                            <a href="https://www.audi.co.id/en/models/r8/r8-coupe-v10-performance-quattro/"
+                                class="inline-block bg-audi-dark hover:bg-audi-red text-white font-medium py-2 px-6 rounded-full transition duration-300 text-xs uppercase tracking-wider">Model
+                                Detail</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        
-        <section id="dealer" class="py-20 bg-audi-dark text-white text-center" style="background-image: url('https://kabarpialang.com/wp-content/uploads/2025/06/202108102303-main.cropped_1628611395.jpg'); background-size: cover; background-position: center;"">
-            <div class="container mx-auto px-4 text-center bg-audi-dark/70 p-10 rounded-xl transition duration-500 hover:bg-audi-dark/80">
-                <p class="text-sm uppercase tracking-widest text-audi-red mb-3 font-medium">Access Premium Services</p>
-                <h2 class="text-4xl font-light mb-6">Visit an Authorized Audi Dealer</h2>
-                <p class="text-lg mb-10 text-gray-300 max-w-3xl mx-auto">Experience luxury firsthand and receive consultation from our team of experts. We are ready to serve you with the highest standards.</p>
-                <div class="flex justify-center">
-                    <button class="bg-audi-red hover:bg-white hover:text-audi-dark text-white font-semibold py-3 px-10 rounded-full shadow-lg uppercase tracking-wider transition duration-300 transform hover:scale-105"><a href="https://www.google.com/maps/search/Audi+Dealer+di++Indonesia/@-7.5819208,110.0266021,625577m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MTExMC4wIKXMDSoASAFQAw%3D%3D">Find The Nearest Dealer</a></button>
-                </div>
+
+        <section id="dealer" class="py-20 bg-audi-dark text-white text-center"
+            style="background-image: url('https://kabarpialang.com/wp-content/uploads/2025/06/202108102303-main.cropped_1628611395.jpg'); background-size: cover; background-position: center;">
+            <div class=" container mx-auto px-4 text-center bg-audi-dark/70 p-10 rounded-xl transition duration-500
+            hover:bg-audi-dark/80">
+            <p class="text-sm uppercase tracking-widest text-audi-red mb-3 font-medium">Access Premium Services</p>
+            <h2 class="text-4xl font-light mb-6">Visit an Authorized Audi Dealer</h2>
+            <p class="text-lg mb-10 text-gray-300 max-w-3xl mx-auto">Experience luxury firsthand and receive
+                consultation from our team of experts. We are ready to serve you with the highest standards.</p>
+            <div class="flex justify-center">
+                <button
+                    class="bg-audi-red hover:bg-white hover:text-audi-dark text-white font-semibold py-3 px-10 rounded-full shadow-lg uppercase tracking-wider transition duration-300 transform hover:scale-105"><a
+                        href="https://www.google.com/maps/search/Audi+Dealer+di++Indonesia/@-7.5819208,110.0266021,625577m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MTExMC4wIKXMDSoASAFQAw%3D%3D">Find
+                        The Nearest Dealer</a></button>
+            </div>
             </div>
         </section>
 
         <section id="services" class="py-20 bg-white">
             <div class="container mx-auto px-4 max-w-4xl">
-                <h2 class="text-4xl font-light text-center mb-12 border-b-2 border-audi-red pb-2 inline-block">Aftersales Service</h2>
-                
+                <h2 class="text-4xl font-light text-center mb-12 border-b-2 border-audi-red pb-2 inline-block">
+                    Aftersales Service</h2>
+
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                    <div class="p-6 bg-audi-light rounded-xl border border-gray-200 shadow-md transition duration-300 hover:ring-2 ring-audi-red hover:shadow-lg">
+                    <div
+                        class="p-6 bg-audi-light rounded-xl border border-gray-200 shadow-md transition duration-300 hover:ring-2 ring-audi-red hover:shadow-lg">
                         <h3 class="text-xl font-medium mb-2 text-audi-dark">Regular Maintenance</h3>
-                        <p class="text-sm text-audi-gray mb-4">Ensure your Audi's performance is always optimal with certified technicians.</p>
-                        <a href="https://www.audi.co.id/en/aftersales-and-servicing/service-and-maintenance/" class="text-audi-red hover:text-audi-dark font-medium text-sm border-b border-audi-red pb-1 transition duration-300 hover:pb-1">Schedule Service &rarr;</a>
+                        <p class="text-sm text-audi-gray mb-4">Ensure your Audi's performance is always optimal with
+                            certified technicians.</p>
+                        <a href="https://www.audi.co.id/en/aftersales-and-servicing/service-and-maintenance/"
+                            class="text-audi-red hover:text-audi-dark font-medium text-sm border-b border-audi-red pb-1 transition duration-300 hover:pb-1">Schedule
+                            Service &rarr;</a>
                     </div>
-                    <div class="p-6 bg-audi-light rounded-xl border border-gray-200 shadow-md transition duration-300 hover:ring-2 ring-audi-red hover:shadow-lg">
+                    <div
+                        class="p-6 bg-audi-light rounded-xl border border-gray-200 shadow-md transition duration-300 hover:ring-2 ring-audi-red hover:shadow-lg">
                         <h3 class="text-xl font-medium mb-2 text-audi-dark">Genuine Spare Parts</h3>
-                        <p class="text-sm text-audi-gray mb-4">Only genuine spare parts guarantee the quality and safety of your Audi.</p>
-                        <a href="https://www.audi.co.id/en/aftersales-and-servicing/audi-genuine-parts/" class="text-audi-red hover:text-audi-dark font-medium text-sm border-b border-audi-red pb-1 transition duration-300 hover:pb-1">Check Availabality &rarr;</a>
+                        <p class="text-sm text-audi-gray mb-4">Only genuine spare parts guarantee the quality and safety
+                            of your Audi.</p>
+                        <a href="https://www.audi.co.id/en/aftersales-and-servicing/audi-genuine-parts/"
+                            class="text-audi-red hover:text-audi-dark font-medium text-sm border-b border-audi-red pb-1 transition duration-300 hover:pb-1">Check
+                            Availabality &rarr;</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="experience" class="py-20 bg-audi-dark/95 text-white" style="background-image: url('https://emea-dam.audi.com/adobe/assets/urn:aaid:aem:18c09a13-f254-440d-8e29-317bc7fa3f74/as/1920x1080_ade_circuit.jpg?width=1440'); background-size: cover; background-position: center;">
-            <div class="container mx-auto px-4 text-center bg-audi-dark/70 p-10 rounded-xl transition duration-500 hover:bg-audi-dark/80">
+        <section id="experience" class="py-20 bg-audi-dark/95 text-white"
+            style="background-image: url('https://emea-dam.audi.com/adobe/assets/urn:aaid:aem:18c09a13-f254-440d-8e29-317bc7fa3f74/as/1920x1080_ade_circuit.jpg?width=1440'); background-size: cover; background-position: center;">
+            <div
+                class="container mx-auto px-4 text-center bg-audi-dark/70 p-10 rounded-xl transition duration-500 hover:bg-audi-dark/80">
                 <h2 class="text-5xl font-light mb-4">Experience Audi Innovation Firsthand.</h2>
-                <p class="text-xl mb-10 text-gray-200 max-w-4xl mx-auto">Nothing can replace the driving experience. Book your test drive today.</p>
-                <button class="bg-white hover:bg-audi-red text-audi-dark hover:text-white font-semibold py-3 px-10 rounded-full shadow-xl uppercase tracking-wider transition duration-300 transform hover:scale-105"><a href="https://www.audi-me.com/en/forms/testdrive/">Order a Test Drive</a></button>
+                <p class="text-xl mb-10 text-gray-200 max-w-4xl mx-auto">Nothing can replace the driving experience.
+                    Book your test drive today.</p>
+                <button
+                    class="bg-white hover:bg-audi-red text-audi-dark hover:text-white font-semibold py-3 px-10 rounded-full shadow-xl uppercase tracking-wider transition duration-300 transform hover:scale-105"><a
+                        href="https://www.audi-me.com/en/forms/testdrive/">Order a Test Drive</a></button>
             </div>
         </section>
     </main>
@@ -260,10 +379,11 @@
                     menu.classList.add('hidden');
                     iconOpen.classList.remove('hidden');
                     iconClose.classList.add('hidden');
-                }, 100); 
+                }, 100);
             });
         });
     </script>
 
 </body>
+
 </html>
